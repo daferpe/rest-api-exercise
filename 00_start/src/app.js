@@ -9,7 +9,9 @@ import {
    getAllCars,
    getCarById,
    addCar 
-} from './API/carsApi.double';
+// } from './API/carsApi.double';
+// } from './API/carsApi_axios.js';
+} from './API/carsApi_fetch.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const buttonLoadCars = document.getElementById('loadcars');
